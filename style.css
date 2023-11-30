@@ -2,12 +2,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
+p{
+    margin: 10px;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .result {
     color: white;
     font-size: 45px;
     margin-top: 15px;
     margin-bottom: 5px;
+    padding-left: 10px;
 }
 
 button {
